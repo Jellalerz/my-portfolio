@@ -105,14 +105,14 @@ body {
     font-family: 'Oxanium', cursive;
     color: white;
     font-size: medium;
-    padding: 15px;
+    padding: 5%;
 }
 
 #textformat2{
     font-family: 'Oxanium', cursive;
     color: white;
     font-size: medium;
-
+    padding: 5%;
 }
 
 #email{
@@ -132,7 +132,7 @@ body {
 
 header {
     background-color: #060e15;
-    padding: 5px;
+    padding: 2%;
 }
 
 h1 {
@@ -275,19 +275,19 @@ img{
 
 section#header {
     color: white;
-    padding: 15px;
+    padding: 5%;
   }
   
   
 section#portfolio {
     flex: content;
     display: inline-block;   
-    padding: 15px;
+    padding: 8%;
     
 }
  
 section#skills{
-    padding: 15px;
+    padding: 5%;
 }
   
 
