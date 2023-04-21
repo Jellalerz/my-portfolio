@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCv</title>
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+<!-- import css -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="writeit.js"></script>
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+     
+     
+     <!-- Bootstrap core CSS -->
+    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css">
+</head>
+<body>
+
+    <header>
+
+          
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark shadow-5-strong" >
+          <div class="container-fluid" id="nav_header">
+    
+    
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16" id="gamezone">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+              </svg>
+            <a class="navbar-brand" href="index.html" id="gamezonetxt">Home</a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills" tabindex="-1" aria-disabled="true">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#soft_skills" tabindex="-1" aria-disabled="true">Soft Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about_site" tabindex="-1" aria-disabled="true">About this site</a>
+                </li>
+              </ul>
+    
+              <!--form class="d-flex" id="searchid">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit" id="search_btn">Search</button>
+              </form-->
+              <a href="https://api.whatsapp.com/send?phone=8713704108" target="_blank" id="whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"  onclick="https://api.whatsapp.com/send?phone=8713704108" target="_blank">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+            </a>
+             
+            <a href="mailto:jonathancldev@gmail.com" id="whatsapp">
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16" id="margin_icon_navbar">
+              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+            </svg>
+          </a>
+
+          <a href="https://github.com/Jellalerz?tab=repositories" id="whatsapp" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" id="margin_icon_navbar">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+    
+    
+            </div>
+          </div>
+        </nav>
+      </header>
+     
+      <section id="header">
+        <article>
+          <h1 id="myname">Jonathan Contreras</h1> 
+          <h2 id="demo"></h2>
+          <h3>Welcome to my web portfolio!</h3>
+         
+          <br>
+          <br>
+          <a href="Assets/doc/Jonathan contreras.pdf" target="_blank">
+          <button type="button" class="btn btn-success" id="btncv">Download CV</button>
+        </a>
+        
+
+        </article>
+      </section>
+     
+      
+      <section id="tim-vine">
+        <article>
+          <h1>About me</h1>
+          <p id="textformat"> I am a developer who is willing to know and learn everyday more about technology and IT. I am a fast learner that
+            is appasionated to programming and technology in general. I look forward a good future where IT can make a better world for
+            us.
+          </p>
+          
+          
+        </article>
+    </section>
+      
+
+    <section id="portfolio">
+        
+          <h2>Portfolio</h2> 
+          
+          <div class="row row-cols-1 row-cols-md-3 g-4" id="cards">
+            <div class="col">
+              <div class="card h-100">
+                <img src="Assets/img/Screenshot (285).png" class="card-img-top" data-toggle="modal"
+                data-target="#exampleModal"
+                  alt="Hollywood Sign on The Hill" />
+                
+                <div class="card-body">
+                  <h5 class="card-title">Pokedex Android</h5>
+                  <p class="card-text">
+                    A kanto pokedex made with Jetpack Compose and MVVM in Android Studio.
+                  </p>
+
+                  <div class="text-center">
+                    <a href="https://github.com/Jellalerz/pokedex_android" target="_blank">
+                      
+                  <button type="button" class="btn btn-success" id="btncv">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp2" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" id="margin_icon_navbar">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg><br>Git Link</button>
+
+                  </a>
+                  </div>
+                
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Assets/img/Screenshot (286).png" class="card-img-top"
+                  alt="Palm Springs Road" />
+                <div class="card-body">
+                  <h5 class="card-title">API videogame site</h5>
+                  <p class="card-text">videogames site that uses RAWG API to call all the game data from it.</p>
+                  <div class="text-center">
+                    <a href="https://github.com/Jellalerz/Rawg-API-game-page" target="_blank">
+                      
+                      <button type="button" class="btn btn-success" id="btncv">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp2" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" id="margin_icon_navbar">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg><br>Git Link</button>
+    
+                      </a>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Assets/img/Screenshot (288).png" class="card-img-top"
+                  alt="Los Angeles Skyscrapers" />
+                <div class="card-body">
+                  <h5 class="card-title">Pokemon API</h5>
+                  <p class="card-text">API made with C# and EntityFramework that provides my pokedex Android project data to display it in screen</p>
+                    <div class="text-center">
+                      <a href="https://github.com/Jellalerz/API-made-with-C-and-EntityFramework" target="_blank">
+                      
+                        <button type="button" class="btn btn-success" id="btncv">
+                          <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp2" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" id="margin_icon_navbar">
+                          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                          </svg><br>Git Link</button>
+      
+                        </a>
+                        </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Assets/img/Screenshot (289).png" class="card-img-top"
+                  alt="Skyscrapers" />
+                <div class="card-body">
+                  <h5 class="card-title">C# Bike Game</h5>
+                  <p class="card-text">
+                    A game created with C# in windows forms.
+                  </p>
+                  <div class="text-center">
+                    <a href="https://github.com/Jellalerz/C-sharp-videogame" target="_blank">
+                      
+                      <button type="button" class="btn btn-success" id="btncv">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp2" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" id="margin_icon_navbar">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg><br>Git Link</button>
+    
+                      </a>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Assets/img/Screenshot (291).png" class="card-img-top"
+                  alt="Skyscrapers" />
+                <div class="card-body">
+                  <h5 class="card-title">Online shop</h5>
+                  <p class="card-text">
+                    An online shop created with PHP, Laravel and MySQL
+                  </p>
+                  <div class="text-center">
+                    <a href="https://github.com/Jellalerz/PHP-Laravel-MySQL-store" target="_blank">
+                      
+                      <button type="button" class="btn btn-success" id="btncv">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp2" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" id="margin_icon_navbar">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg><br>Git Link</button>
+    
+                      </a>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Assets/img/Screenshot (294).png" class="card-img-top"
+                  alt="Skyscrapers" />
+                <div class="card-body">
+                  <h5 class="card-title">My Portfolio</h5>
+                  <p class="card-text">
+                    My personal portfolio
+                  </p>
+                  <div class="text-center">
+                    <a href="https://github.com/Jellalerz?tab=repositories" target="_blank">
+                      
+                      <button type="button" class="btn btn-success" id="btncv">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="whatsapp2" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" id="margin_icon_navbar">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg><br>Git Link</button>
+    
+                      </a>
+                      </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          </div>
+          <br>
+          <div><p id="textformat2">You can check out my github repository to search for more projects!</p></div>
+          
+
+
+           
+
+       
+      </section>
+
+
+
+      <section id="skills">
+        <article>
+          <h2>Skills</h2> 
+          <p id="textformat">Here you have some of the technologies that I have worked on.</p>
+
+          <span class="badge badge-pill" id="javascript_pill">Javascript</span>
+          <span class="badge badge-pill" id="Csharp_pill">C#</span>
+          <span class="badge badge-pill" id="React_pill">React</span>
+          <span class="badge badge-pill" id="SQL_pill">SQL</span>
+          <span class="badge badge-pill" id="Cplusplus_pill">C++</span>
+          <span class="badge badge-pill" id="Bootstrap_pill">Bootstrap</span>
+          <span class="badge badge-pill" id="PHP_pill">PHP</span>
+          <span class="badge badge-pill" id="Laravel_pill">Laravel</span>
+          <span class="badge badge-pill" id="Kotlin_pill">Kotlin</span>
+          <span class="badge badge-pill" id="API_pill">API REST</span>
+          <span class="badge badge-pill" id="HTML_pill">HTML</span>
+          <span class="badge badge-pill" id="CSS_pill">CSS</span>
+          <span class="badge badge-pill" id="GIT_pill">Git</span>
+          <span class="badge badge-pill" id="JSON_pill">JSON</span>
+          <span class="badge badge-pill" id="No_SQL_pill">NoSQL</span>
+          <span class="badge badge-pill" id="dot_NET_pill">.NET</span>
+
+        </article>
+      </section>
+
+      <section id="soft_skills">
+        <article id="textformat">
+          <h2>Soft Skills</h2> 
+         
+          <p>Communication</p>
+          <p>Teamwork</p>
+          <p>Descision Making</p>
+          <p>Methodical</p>
+          <p>Adaptability</p>
+          <p>Creativity</p>
+          
+        </article>
+      </section>
+
+      <section id="contact">
+        <article id="textformat">
+          <h2>Contact</h2>
+
+          <a href="mailto:jonathancldev@gmail.com" id="conctact_links">
+          <p>Email: jonathancldev@gmail.com</p>
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=8713704108" target="_blank" id="conctact_links">
+          <p>Phone number: +52 8713704108</p>
+          </a>
+          <a href="https://github.com/Jellalerz?tab=repositories" id="conctact_links" target="_blank">
+          <p>Github: Jellalerz</p>
+          </a>
+
+
+        </article>
+      </section>
+
+      <section id="about_site">
+        <article id="textformat">
+          <h2>This site was made with:</h2>
+          <span class="badge badge-pill" id="javascript_pill">Javascript</span>
+          <span class="badge badge-pill" id="Bootstrap_pill">Bootstrap</span>
+          <span class="badge badge-pill" id="HTML_pill">HTML</span>
+          <span class="badge badge-pill" id="CSS_pill">CSS</span>
+          
+
+        </article>
+      </section>
+    
+    
+
+    
+</body>
+<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>window.onload = typeWriter()</script>
+
+</html>
+

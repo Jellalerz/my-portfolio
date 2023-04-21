@@ -1,0 +1,319 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /*font-size: 79.5%;*/
+}
+
+body {
+
+    background: linear-gradient(360deg, #000 15%,#a8eb12 160%);
+   
+}
+
+.card{
+    font-size: large;
+    text-align: justify;
+    
+}
+
+#javascript_pill{
+    color: white;
+    background-color: #e5d207cd;
+}
+
+#Csharp_pill{
+    color: white;
+    background-color: #d000fff1;
+}
+
+#React_pill{
+    color: white;
+    background-color: rgb(0, 174, 255);
+}
+
+#SQL_pill{
+    color: white;
+    background-color: gray;
+}
+
+#Cplusplus_pill{
+    color: white;
+    background-color: blue;
+}
+
+#Bootstrap_pill{
+    color: white;
+    background-color: rgb(201, 12, 201);
+}
+
+#PHP_pill{
+    color: white;
+    background-color: rgb(84, 61, 215);
+}
+
+#Laravel_pill{
+    color: white;
+    background-color: rgb(176, 38, 7);
+}
+
+#Kotlin_pill{
+    color: white;
+    background: linear-gradient(90deg, rgb(245, 155, 0) 0%, rgba(0, 238, 238, 0.71) 100%);
+}
+
+#API_pill{
+    color: white;
+    background-color: gray;
+}
+
+#HTML_pill{
+    color: white;
+    background-color: orangered;
+}
+
+#CSS_pill{
+    color: white;
+    background: linear-gradient(90deg, rgb(0, 37, 245) 0%, rgba(0, 238, 238, 0.71) 100%);
+}
+
+#GIT_pill{
+    color: white;
+    background-color: rgb(255, 102, 0);
+}
+
+#JSON_pill{
+    color: white;
+    background-color: grey;
+}
+
+#No_SQL_pill{
+    color: white;
+    background-color: grey;
+}
+
+#dot_NET_pill{
+    color: white;
+    background-color: rgb(0, 128, 255);
+}
+
+#textformat{
+    font-family: 'Oxanium', cursive;
+    color: white;
+    font-size: medium;
+    padding: 5%;
+}
+
+#textformat2{
+    font-family: 'Oxanium', cursive;
+    color: white;
+    font-size: medium;
+
+}
+
+#email{
+    color: white;
+    font-size: medium;
+    font-family: 'Oxanium', cursive;
+}
+
+#nav_header{
+    color: #e507d2;
+}
+
+#search_btn{
+    color: #e507d2;
+    border-color: #e507d2;
+}
+
+header {
+    background-color: #060e15;
+    padding: 2%;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Oxanium', cursive;
+    font-size: 17px;
+    background-color: #000;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 2% 0 0 2%;
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 2.5rem;
+}
+
+body{
+    text-align: center;
+    display:grid
+  
+}
+
+
+/*text formats
+p{
+    font-size: large;
+    font-family: 'Oxanium', cursive;
+    color: #ccc;
+    margin: 100px;
+    background: radial-gradient(#372faca1, #060e159f)
+    
+}*/
+
+
+img{
+    
+    max-inline-size: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    flex: content;
+}
+
+#glide_manager{
+    
+    flex: content;
+    align-items: center;
+    margin: 5%;
+    
+}
+
+#gamezone{
+    margin: 1%;
+    color: #a8eb12;
+}
+
+#gamezonetxt{
+    font-size: large;
+}
+
+#whatsapp{
+    margin: 1%;
+    color: #a8eb12;
+}
+
+#whatsapp2{
+    margin: 10%;
+    color: #a8eb12;
+}
+
+#conctact_links{
+    color: #ffffff;
+}
+
+
+#mail{
+    margin: 1%;
+    color: #a8eb12;
+}
+
+#github{
+    margin: 1%;
+    color: #a8eb12;
+}
+
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #060e15;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #a8eb12;
+	border-radius: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+#myname{
+   color: rgb(255, 255, 255); 
+}
+
+#btncv{
+    background-color: #000;
+}
+
+#demo{
+    color: rgb(0, 0, 0);
+}
+
+section#header {
+    color: white;
+    padding: 5%;
+  }
+  
+  
+section#portfolio {
+    flex: content;
+    display: inline-block;   
+    padding: 8%;
+    
+}
+ 
+section#skills{
+    padding: 5%;
+}
+  
+
+  
+  article {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0px auto;
+  }
+
+  #cards{
+   height: auto;
+   width: auto;
+  }
+
+  .card-body{
+
+
+  }
+
+  .card{
+    background: linear-gradient(360deg, #000 20%,#a8eb12 200%);
+    color: white;
+  }
+
+  #buttoncard{
+    text-align: center;
+  }
