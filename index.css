@@ -105,7 +105,7 @@ body {
     font-family: 'Oxanium', cursive;
     color: white;
     font-size: medium;
-    padding: 5%;
+    padding: 15px;
 }
 
 #textformat2{
@@ -132,7 +132,7 @@ body {
 
 header {
     background-color: #060e15;
-    padding: 2%;
+    padding: 5px;
 }
 
 h1 {
@@ -275,19 +275,19 @@ img{
 
 section#header {
     color: white;
-    padding: 5%;
+    padding: 15px;
   }
   
   
 section#portfolio {
     flex: content;
     display: inline-block;   
-    padding: 8%;
+    padding: 15px;
     
 }
  
 section#skills{
-    padding: 5%;
+    padding: 15px;
 }
   
 
